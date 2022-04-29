@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(0, 0, 116);
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1{
+    
+    font-size: 80px;
+    color: white;
+}
+
+.boxesWithBorder {
+    left:0;
+    position: absolute; 
+    border-width:10px;
+    border-style:solid;
+    border-color:black;
+    border-radius: 35px;
+    height: 220px;
+    width: 220px;
+    font-size: 0;    
+}
+
+.greenbox {
+    margin-left: 1150px;
+    background-color: green;
+}
+.redbox {
+    margin-left: 1450px;
+    background-color: red;
+    float: right;
+   
+}
+.bluebox {
+    margin-left: 1450px;
+    margin-top: 300px;
+    background-color: rgba(0, 174, 255, 0.774);
+    
+}
+.yellowbox {
+    margin-left: 1150px;
+    margin-top: 300px;
+    background-color:yellow;
+    float: left;
+}
+
+.glow{
+    background-color: aliceblue;
+    border-color:black;
+    box-shadow: 0 0 10px aliceblue
+
+}
+
+.hide{
+    visibility: hidden;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
